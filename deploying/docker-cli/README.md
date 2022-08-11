@@ -26,9 +26,9 @@ To view the logs for this container:
 
 To access the Minio Web UI:
 
-Link: http://LABSERVERNAME:9000
-User: `AKIAIOSFODNN7EXAMPLE`
-Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+- Link: http://LABSERVERNAME:9000
+- User: `AKIAIOSFODNN7EXAMPLE`
+- Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
 You could upload something into this instance, but note that because this is ephemeral, when we stop this container, that data you uploaded will not persist anywhere.
 
@@ -50,9 +50,9 @@ To view the logs for this container:
 
 To access the Minio Web UI:
 
-Link: http://LABSERVERNAME:9000
-User: `AKIAIOSFODNN7EXAMPLE`
-Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+- Link: http://LABSERVERNAME:9000
+- User: `AKIAIOSFODNN7EXAMPLE`
+- Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
 Once you access this via a browser, create a bucket and upload some non-sensitive piece of content as a test.
 
@@ -82,9 +82,9 @@ What happens if we redeploy MinIO Persistent and recreate that bucket?
 
 To access the Minio Web UI:
 
-Link: http://LABSERVERNAME:9000
-User: `AKIAIOSFODNN7EXAMPLE`
-Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+- Link: http://LABSERVERNAME:9000
+- User: `AKIAIOSFODNN7EXAMPLE`
+- Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
 Once you access this via a browser, you will notice that MinIO rediscovered the bucket and files in the path and presented them in the UI.
 
