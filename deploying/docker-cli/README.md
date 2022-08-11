@@ -1,8 +1,8 @@
-# Deploying MinIO using the Docker CLI
+# LAB: Deploying MinIO using the Docker CLI
 
 This method leverage Docker to allow you to quickly get up and running with a dev/test MinIO configuration.
 
-We specify dev/test usage here because this method is ephemeral and does not by itself allow for automation and orchestration easily for a long lived, production grade environment.
+We specify dev/test usage here because this method can be ephemeral and does not by itself allow for automation and orchestration easily for a long lived, production grade environment.
 
 If you would like to leverage Docker to deliver a more robust MinIO deployment, please look at the [Docker-Compose](../docker-compose/README.md) instructions.
 
@@ -92,7 +92,7 @@ Now, let's cleanup the data from this lab:
 
 `docker rm -f minio-persistent ` {{ execute }}
 
-`rm -rf /mnt/data/minio-persistent/minio-test-data` {{ execute }}
+`sudo rm -rf /mnt/data/minio-persistent/minio-test-data` {{ execute }}
 
 ## MinIO Docker CLI Lab Complete
 
