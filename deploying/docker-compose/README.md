@@ -14,18 +14,18 @@ We have trimmed down the original [Docker-Compose and Nginx files](https://githu
 
 View the files here:
 
-`/home/USER/minio/deploy/docker-compose/single/docker-compose.yml` {{ open }}
+`/home/DEPLOYMENTUSER/minio/deploy/docker-compose/single/docker-compose.yml` {{ open }}
 
-`/home/USER/minio/deploy/docker-compose/single/nginx.conf` {{ open }}
+`/home/DEPLOYMENTUSER/minio/deploy/docker-compose/single/nginx.conf` {{ open }}
 
 ## Deploy Distributed MinIO with Docker-Compose
 Reference: https://docs.min.io/docs/deploy-minio-on-docker-compose
 
 View the files here:
 
-`/home/[USER]/minio/deploy/docker-compose/distributed/docker-compose.yml` {{ open }}
+`/home/DEPLOYMENTUSER/minio/deploy/docker-compose/distributed/docker-compose.yml` {{ open }}
 
-`/home/[USER]/minio/deploy/docker-compose/distributed/nginx.conf` {{ open }}
+`/home/DEPLOYMENTUSER/minio/deploy/docker-compose/distributed/nginx.conf` {{ open }}
 
 ## Deploying MinIO using Docker-Compose Lab Complete
 
