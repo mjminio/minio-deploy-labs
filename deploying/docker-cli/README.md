@@ -26,7 +26,7 @@ To view the logs for this container:
 
 To access the Minio Web UI:
 
-- Link: http://[LABSERVERNAME]:9000
+- Link: http://LABSERVERNAME:9000
 - User: `AKIAIOSFODNN7EXAMPLE`
 - Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
@@ -50,7 +50,7 @@ To view the logs for this container:
 
 To access the Minio Web UI:
 
-- Link: http://[LABSERVERNAME]:9000
+- Link: http://LABSERVERNAME:9000
 - User: `AKIAIOSFODNN7EXAMPLE`
 - Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
@@ -82,7 +82,7 @@ What happens if we redeploy MinIO Persistent and recreate that bucket?
 
 To access the Minio Web UI:
 
-- Link: http://[LABSERVERNAME]:9000
+- Link: http://LABSERVERNAME:9000
 - User: `AKIAIOSFODNN7EXAMPLE`
 - Pass: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
 
